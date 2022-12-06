@@ -12,7 +12,7 @@ A browser extension to display ChatGPT response alongside Bing Search results, s
 
 #### Local Install
 
-1. Download `chrome.zip` from [Releases](https://github.com/**/releases)
+1. Download `chrome.zip` from [Releases](https://github.com/happy-share-forever/chat-gpt-google-extension/releases)
 2. Unzip the file
 3. In Chrome/Edge go to the extensions page (`chrome://extensions` or `edge://extensions`).
 4. Enable Developer Mode.
@@ -22,7 +22,7 @@ A browser extension to display ChatGPT response alongside Bing Search results, s
 
 #### Local Install
 
-1. Download `firefox.zip` from [Releases](https://github.com/**/releases)
+1. Download `firefox.zip` from [Releases](https://github.com/happy-share-forever/chat-gpt-google-extension/releases)
 2. Unzip the file
 3. Go to `about:debugging`, click "This Firefox" on the sidebar
 4. Click "Load Temporary Add-on" button, then select any file in the unzipped folder
@@ -30,6 +30,6 @@ A browser extension to display ChatGPT response alongside Bing Search results, s
 ## Build from source
 
 1. Clone the repo
-2. Install dependencies with `npm`
+2. Install dependencies with `pnpm`
 3. Run `./build.sh` for Chrome, `./build.sh firefox` for Firefox
 4. Load the `build` directory to your browser
