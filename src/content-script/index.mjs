@@ -5,12 +5,12 @@ async function run (question) {
   container.className = 'chat-gpt-container'
   container.innerHTML = '<p class="loading">Waiting for ChatGPT response...</p>'
 
-  const siderbarContainer = document.getElementById('rhs')
+  const siderbarContainer = document.getElementById('b_context')
   if (siderbarContainer) {
     siderbarContainer.prepend(container)
   } else {
-    container.classList.add('sidebar-free')
-    document.getElementById('rcnt').appendChild(container)
+    // container.classList.add('sidebar-free')
+    // document.getElementById('rcnt').appendChild(container)
   }
 
   const port = Browser.runtime.connect()

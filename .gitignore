@@ -5,3 +5,6 @@ background.js
 *.zip
 .idea
 .vscode
+chrome/
+firefox/
+*.tar.gz
