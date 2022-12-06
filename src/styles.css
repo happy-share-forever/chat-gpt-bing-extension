@@ -1,5 +1,6 @@
 .chat-gpt-container {
-  margin-bottom: 30px;
+  width: 100%;
+  margin: 0 0 30px -20px;
   border-radius: 8px;
   border: 1px solid #dadce0;
   padding: 15px;

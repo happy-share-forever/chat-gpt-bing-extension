@@ -2,7 +2,7 @@
 
 A browser extension to display ChatGPT response alongside Bing Search results, supports Chrome/Edge/Firefox
 
-![Screenshot](screenshot.jpg?raw=true)
+![Screenshot](screenshot.png?raw=true)
 
 ## Installation
 
